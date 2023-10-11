@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript HTML DOM</title>
+  </head>
+  <body>
+    <h1>JavaScript HTML DOM</h1>
+
+    <p>Mengubah Warna Tulisan</p>
+
+    <p>Click the button to change the background color of the entire page.</p>
+
+    <button onclick="changeBackgroundColor('blue')">Biru</button>
+
+    <button onclick="changeBackgroundColor('red')">Red</button>
+
+    <button onclick="changeBackgroundColor('orange')">Orange</button>
+
+    <script>
+      function changeBackgroundColor(color) {
+        document.body.style.backgroundColor = color;
+      }
+    </script>
+  </body>
+</html>
